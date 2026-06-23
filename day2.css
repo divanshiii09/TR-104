@@ -1,10 +1,53 @@
 * {
   font-family:Georgia, 'Times New Roman', Times, serif
 }
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 h1{
     color: red;
     font-size: 24px;
+    /* FONT REVISION */
+
+/* 1. font-family
+   Defines the typeface of text.
+   Example: Arial, Times New Roman, Verdana
+*/
+font-family: 'Poppins';
+/* 2. font-size
+   Controls the size of text.
+*/
+font-size: 20px;
+
+/* 3. font-weight
+   Controls text thickness.
+   100 = Thin
+   400 = Normal
+   700 = Bold
+   900 = Extra Bold
+*/
+font-weight: 700;
+
+/* 4. font-style
+   Controls text style.
+   normal | italic | oblique
+*/
+font-style: italic;
+
+/* 5. Emphasis (font emphasis)
+   Used to stress text.
+   Commonly achieved using:
+*/
+font-weight: bold;    /* importance */
+
+
+/* 7. Shorthand Font Property
+   style weight size family
+*/
+font: italic bold 20px Arial, sans-serif;
 }
 table{
     border: 2px solid black;
@@ -56,3 +99,130 @@ div p{
     color: red;
 }
 
+/* Inline > ID > Class/Attribute/Pseudo-class > Element > Universal
+ */
+
+ .box-model{
+    box-sizing: border-box;
+    background-color: lightblue;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+ }
+
+/* border-box: Width includes content, padding, and border */
+/* Total width = content + padding + border */
+/* border-box keeps the total width/height fixed */
+
+/* COLOR REVISION
+
+Hexadecimal Colors (#RRGGBB)
+00 = Minimum value
+FF = Maximum value
+
+#000000 = Black
+#FFFFFF = White
+#FF0000 = Red
+#00FF00 = Green
+#0000FF = Blue
+#FFFF00 = Yellow
+#00FFFF = Cyan
+#FF00FF = Magenta
+
+RGB Colors (rgb(R,G,B))
+0   = Minimum value
+255 = Maximum value
+
+rgb(0,0,0)       = Black
+rgb(255,255,255) = White
+rgb(255,0,0)     = Red
+rgb(0,255,0)     = Green
+rgb(0,0,255)     = Blue
+rgb(255,255,0)   = Yellow
+rgb(0,255,255)   = Cyan
+rgb(255,0,255)   = Magenta
+
+Hex: 00 → FF
+RGB: 0 → 255
+*/
+
+
+/* RGBA = RGB + Alpha
+   RGB: 0–255
+   Alpha: 0–1
+   0 = Invisible
+   0.5 = 50% Transparent
+   1 = Fully Visible
+*/
+
+
+/* Predefined colors = browser-supported color names (red, blue, green, black, white, etc.) */
+
+/* HSL = Hue, Saturation, Lightness
+
+Hue (0°–360°)
+0° = Red
+120° = Green
+240° = Blue
+
+Saturation (0%–100%)
+0%   = Gray (no color)
+100% = Full color
+
+Lightness (0%–100%)
+0%   = Black
+50%  = Normal color
+100% = White
+
+Example:
+color: hsl(0,100%,50%);   /* Red */
+/* HSLA = HSL + Alpha (Transparency)
+
+Alpha:
+0   = Invisible
+0.5 = 50% Transparent
+1   = Fully Visible
+
+Example:
+color: hsla(0,100%,50%,0.5);
+*/
+
+/* Transparent
+
+Makes element completely invisible
+while keeping its space occupied.
+
+Example:
+background-color: transparent;
+*/
+
+
+/* CurrentColor
+
+Uses the current value of the
+element's color property.
+
+Example:
+color: blue;
+border: 2px solid currentColor;
+
+Result:
+Text = Blue
+Border = 
+
+/* currentColor = Uses current text color
+*/
+
+
+
+/* CSS Units:
+   px = fixed pixels (1/96th of an inch)
+   % = relative to parent
+   em = relative to parent font size
+   rem = relative to root(html) font size
+   vw = viewport width
+   vh = viewport height
+   vmin = smaller of vw/vh
+   vmax = larger of vw/vh
+   auto = browser calculates
+*/
