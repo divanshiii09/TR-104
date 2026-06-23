@@ -1,0 +1,58 @@
+* {
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+h1{
+    color: red;
+    font-size: 24px;
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th{
+    border: 2px solid black;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+
+.blue{
+    color:blue;
+}
+
+#first{
+    color: orange;
+}
+
+.green{
+    color:green;
+}
+p{
+    color: blue;
+    font-size: 16px;
+}
+button{
+
+    padding:5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+/* pseudo-class selectors */
+button:hover{
+    background-color: lightblue;
+    border: 1px solid white;
+}
+
+div p{
+    color: red;
+}
+
