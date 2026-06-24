@@ -17,8 +17,19 @@
     border: 2px solid black;
     width: 200px;
     height: 100px;
-    background: conic-gradient(red, yellow, green, blue);
-    color: white;
+
+    background:
+    conic-gradient( from 45deg,
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet,
+        red
+    );
+color: white;
 }
 
 h1{
