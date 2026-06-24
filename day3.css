@@ -1,0 +1,50 @@
+#first{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right,  #0000ffcc,
+        rgba(255, 0, 0, 0.6), rgba(0, 134, 0, 0.2));
+    color: white;
+}
+#second{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    background: radial-gradient(red, yellow, green);
+    color: red;
+}
+#third{
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    background: conic-gradient(red, yellow, green, blue);
+    color: white;
+}
+
+h1{
+    text-shadow: 2px 2px 4px #000000, 3px 3px 4px #ff0000, 4px 4px 4px #00ff00;
+}
+h2{
+    background: linear-gradient(to right, #ff0000, #00ff00);
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 5px 5px 10px #888888,
+                -5px -5px 10px #e21818;
+}
+h3{
+    background: linear-gradient(to right, #0000ff, #ffff00);
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 0 0 2px black;
+}
+
+p{
+    border: 1px solid black;
+    padding: 10px;
+    max-height:100px;
+    max-width:200px;
+    overflow:scroll;
+}
